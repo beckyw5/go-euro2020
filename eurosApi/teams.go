@@ -79,10 +79,18 @@ type euroTeamsResponse struct {
     Matches []Matches `json:"matches"`
 }
 
-func GetAllTeams() ([]Team, error) {
+func GetAllTeams() ([]Match, error) {
     res, err := http.Get(fmt.Sprintf("%s/id", baseURL))
-    if err = nil {
+    if err != nil {
         return nil, err
     }
     defer res.Body.Close()
+
+    var response euroTeamsResponse
+    err = json.NewDecoder(res.Body).Decode(&response)
+    if err != nil {
+        return nil, err
+    }
+
+    return response.Match, nil
 }
