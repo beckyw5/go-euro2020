@@ -84,4 +84,5 @@ func GetAllTeams() ([]Team, error) {
     if err = nil {
         return nil, err
     }
+    defer res.Body.Close()
 }
