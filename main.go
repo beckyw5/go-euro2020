@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"euro2020/euro2020"
+    "goApp/euro2020"
 )
 
 func main() {
@@ -18,7 +18,7 @@ func main() {
     }
     defer file.Close()
 
-    wrt := io.MultiWriter(os.Stdout, file
+    wrt := io.MultiWriter(os.Stdout, file)
 
     log.SetOutput(wrt)
 

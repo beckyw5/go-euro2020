@@ -1,3 +1,3 @@
-module euro2020
+module goApp
 
 go 1.16
