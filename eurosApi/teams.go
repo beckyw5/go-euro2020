@@ -81,5 +81,7 @@ type euroTeamsResponse struct {
 
 func GetAllTeams() ([]Team, error) {
     res, err := http.Get(fmt.Sprintf("%s/id", baseURL))
-    if err
+    if err = nil {
+        return nil, err
+    }
 }
