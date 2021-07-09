@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"time"
+	"encoding/json"
 )
 
 type Matches struct {
@@ -79,7 +80,7 @@ type euroTeamsResponse struct {
     Matches []Matches `json:"matches"`
 }
 
-func GetAllTeams() ([]Match, error) {
+func GetAllMatches() ([]Match, error) {
     res, err := http.Get(fmt.Sprintf("%s/id", baseURL))
     if err != nil {
         return nil, err
