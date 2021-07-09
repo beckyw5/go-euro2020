@@ -1,0 +1,223 @@
+{
+  "id": 2018,
+  "area": {
+    "id": 2077,
+    "name": "Europe"
+  },
+  "name": "European Championship",
+  "code": "EC",
+  "emblemUrl": null,
+  "plan": "TIER_ONE",
+  "currentSeason": {
+    "id": 507,
+    "startDate": "2021-06-11",
+    "endDate": "2021-07-11",
+    "currentMatchday": 6,
+    "winner": null
+  },
+  "seasons": [
+    {
+      "id": 507,
+      "startDate": "2021-06-11",
+      "endDate": "2021-07-11",
+      "currentMatchday": 6,
+      "winner": null
+    },
+    {
+      "id": 20,
+      "startDate": "2016-06-10",
+      "endDate": "2016-07-10",
+      "currentMatchday": 3,
+      "winner": {
+        "id": 765,
+        "name": "Portugal",
+        "shortName": "Portugal",
+        "tla": "POR",
+        "crestUrl": "https://crests.football-data.org/765.svg"
+      }
+    },
+    {
+      "id": 674,
+      "startDate": "2012-06-08",
+      "endDate": "2012-07-02",
+      "currentMatchday": null,
+      "winner": {
+        "id": 760,
+        "name": "Spain",
+        "shortName": "Spain",
+        "tla": "ESP",
+        "crestUrl": "https://crests.football-data.org/760.svg"
+      }
+    },
+    {
+      "id": 673,
+      "startDate": "2008-06-07",
+      "endDate": "2008-06-29",
+      "currentMatchday": null,
+      "winner": {
+        "id": 760,
+        "name": "Spain",
+        "shortName": "Spain",
+        "tla": "ESP",
+        "crestUrl": "https://crests.football-data.org/760.svg"
+      }
+    },
+    {
+      "id": 672,
+      "startDate": "2004-06-12",
+      "endDate": "2004-07-04",
+      "currentMatchday": null,
+      "winner": {
+        "id": 775,
+        "name": "Greece",
+        "shortName": "Greece",
+        "tla": "GRE",
+        "crestUrl": "https://crests.football-data.org/775.svg"
+      }
+    },
+    {
+      "id": 671,
+      "startDate": "2000-06-10",
+      "endDate": "2000-07-02",
+      "currentMatchday": null,
+      "winner": {
+        "id": 773,
+        "name": "France",
+        "shortName": "France",
+        "tla": "FRA",
+        "crestUrl": "https://crests.football-data.org/773.svg"
+      }
+    },
+    {
+      "id": 670,
+      "startDate": "1996-06-08",
+      "endDate": "1996-06-30",
+      "currentMatchday": null,
+      "winner": {
+        "id": 759,
+        "name": "Germany",
+        "shortName": "Germany",
+        "tla": "GER",
+        "crestUrl": "https://crests.football-data.org/759.svg"
+      }
+    },
+    {
+      "id": 661,
+      "startDate": "1992-06-10",
+      "endDate": "1992-06-26",
+      "currentMatchday": null,
+      "winner": {
+        "id": 782,
+        "name": "Denmark",
+        "shortName": "Denmark",
+        "tla": "DEN",
+        "crestUrl": "https://crests.football-data.org/782.svg"
+      }
+    },
+    {
+      "id": 662,
+      "startDate": "1988-06-10",
+      "endDate": "1988-06-25",
+      "currentMatchday": null,
+      "winner": {
+        "id": 756,
+        "name": "Netherlands",
+        "shortName": "Netherlands",
+        "tla": "NLD",
+        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+      }
+    },
+    {
+      "id": 663,
+      "startDate": "1984-06-12",
+      "endDate": "1984-06-27",
+      "currentMatchday": null,
+      "winner": {
+        "id": 773,
+        "name": "France",
+        "shortName": "France",
+        "tla": "FRA",
+        "crestUrl": "https://crests.football-data.org/773.svg"
+      }
+    },
+    {
+      "id": 664,
+      "startDate": "1980-06-11",
+      "endDate": "1980-06-22",
+      "currentMatchday": null,
+      "winner": {
+        "id": 759,
+        "name": "Germany",
+        "shortName": "Germany",
+        "tla": "GER",
+        "crestUrl": "https://crests.football-data.org/759.svg"
+      }
+    },
+    {
+      "id": 665,
+      "startDate": "1976-06-16",
+      "endDate": "1976-06-20",
+      "currentMatchday": null,
+      "winner": {
+        "id": 822,
+        "name": "Czechoslovakia",
+        "shortName": null,
+        "tla": null,
+        "crestUrl": "https://crests.football-data.org/798.svg"
+      }
+    },
+    {
+      "id": 666,
+      "startDate": "1972-06-14",
+      "endDate": "1972-06-18",
+      "currentMatchday": null,
+      "winner": {
+        "id": 759,
+        "name": "Germany",
+        "shortName": "Germany",
+        "tla": "GER",
+        "crestUrl": "https://crests.football-data.org/759.svg"
+      }
+    },
+    {
+      "id": 667,
+      "startDate": "1968-06-05",
+      "endDate": "1968-06-10",
+      "currentMatchday": null,
+      "winner": {
+        "id": 784,
+        "name": "Italy",
+        "shortName": "Italy",
+        "tla": "ITA",
+        "crestUrl": "https://crests.football-data.org/784.svg"
+      }
+    },
+    {
+      "id": 668,
+      "startDate": "1964-06-17",
+      "endDate": "1964-06-21",
+      "currentMatchday": null,
+      "winner": {
+        "id": 760,
+        "name": "Spain",
+        "shortName": "Spain",
+        "tla": "ESP",
+        "crestUrl": "https://crests.football-data.org/760.svg"
+      }
+    },
+    {
+      "id": 669,
+      "startDate": "1960-07-06",
+      "endDate": "1960-07-10",
+      "currentMatchday": null,
+      "winner": {
+        "id": 9166,
+        "name": "Soviet Union",
+        "shortName": "USSR",
+        "tla": "USSR",
+        "crestUrl": "https://crests.football-data.org/9166.svg"
+      }
+    }
+  ],
+  "lastUpdated": "2020-09-10T13:51:03Z"
+}
