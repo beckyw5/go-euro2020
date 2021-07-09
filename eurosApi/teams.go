@@ -74,3 +74,12 @@ type Matches struct {
 		} `json:"referees"`
 	} `json:"matches"`
 }
+
+type euroTeamsResponse struct {
+    Matches []Matches `json:"matches"`
+}
+
+func GetAllTeams() ([]Team, error) {
+    res, err := http.Get(fmt.Sprintf("%s/id", baseURL))
+    if err
+}
