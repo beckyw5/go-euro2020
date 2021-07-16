@@ -80,7 +80,7 @@ type euroTeamsResponse struct {
     Matches []Matches `json:"matches"`
 }
 
-func GetAllMatches() ([]Match, error) {
+func GetAllMatches() ([]Matches, error) {
     res, err := http.Get(fmt.Sprintf("%s/id", baseURL))
     if err != nil {
         return nil, err
@@ -93,5 +93,5 @@ func GetAllMatches() ([]Match, error) {
         return nil, err
     }
 
-    return response.Match, nil
+    return response.Matches, nil
 }

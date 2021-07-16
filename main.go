@@ -22,7 +22,7 @@ func main() {
 
     log.SetOutput(wrt)
 
-    matches, err := euro2020.GetAllMatches()
+    matches, err := eurosApi.GetAllMatches()
     if err != nil {
         log.Fatalf("error while getting all matches: %v", err)
     }
