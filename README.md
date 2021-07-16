@@ -1,5 +1,11 @@
 # Euro 2020
 
+## Commands
+Running the project
+```
+go run main.go
+```
+
 ## Useful links
 **API**
 - [NFL API](https://statsapi.web.nhl.com/api/v1/teams/ )
@@ -9,3 +15,4 @@
 
 [JsonToGo](https://mholt.github.io/json-to-go/)
 
+https://www.youtube.com/watch?v=eu4wqYA7mBY&ab_channel=EQuimper
