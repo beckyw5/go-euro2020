@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-    "goApp/euro2020"
+    "goApp/eurosApi"
 )
 
 func main() {

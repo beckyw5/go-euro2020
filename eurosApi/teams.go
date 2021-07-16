@@ -1,4 +1,4 @@
-package euro2020
+package eurosApi
 
 import (
 	"fmt"
